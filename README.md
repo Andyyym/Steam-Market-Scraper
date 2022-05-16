@@ -1,7 +1,7 @@
 # Steam-Market-Scraper
 Search for specific items on the steam community market.
 
-# HOWTO Guide
+# HOW - TO Guide
 
 1 | Run npn i  in console to install all packages.
 2 | After instalation is complete, run node index.js in console to start the application.
