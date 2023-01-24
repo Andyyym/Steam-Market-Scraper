@@ -18,7 +18,7 @@ def parse(data):
     items = soup.find_all('a')
     for item in items:
         title = item.find('span', {'class' : 'market_listing_item_name'}).text
-        price =  item.find('span', {'class' :'sale_price'}).text.strip().split('$')[1]
+        price =  item.find('span', {'class' :'normal_price'}).text.strip().split('$')[1][:-1]
         # print(title,price)
 
         MarketItems = {
